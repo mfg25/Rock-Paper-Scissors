@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <div id="containerTitle">
+        <center><strong id="title">ROCK PAPER SCISSORS</strong></center>
+        <center><p id="subtitle">Choose your option</p></center>
+      </div>
+      <div id="choices">
+        <input
+          type="image"
+          class="imageInput"
+          id="rockInput"
+          src="rockImage.png"
+        />
+        <input
+          type="image"
+          class="imageInput"
+          id="paperInput"
+          src="paperImage.png"
+        />
+        <input
+          type="image"
+          class="imageInput"
+          id="scissorsInput"
+          src="scissorsImage.png"
+        />
+      </div>
+      <div>
+        <center>
+          <p class="score" id="computerChoice">Computer's choice: ---</p>
+        </center>
+        <center><p class="score">Score</p></center>
+        <center><p class="score" id="scoreNumbers">0 - 0</p></center>
+        <center>
+          <p class="score" id="end" style="visibility: hidden">
+            End of the game!
+          </p>
+        </center>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
