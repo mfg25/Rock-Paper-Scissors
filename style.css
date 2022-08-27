@@ -73,3 +73,32 @@ main{
     padding: 0vw 2vw 0vw 2vw;
     cursor:pointer;
 }
+@media (max-width: 900px){
+    #choices{
+        width: 80vw;
+    }
+    .imageInput{
+        width: 30vw;
+    }
+    #paperInput{
+        width: 30vw;
+    }
+    .imageInput:active{
+        width: 30vw;
+    }
+    .imageInput:hover{
+        width: 30vw;
+    }
+    #title{
+        font-size: 12vw;
+    }
+    #subtitle{
+        font-size: 9vw;
+    }
+    .score{
+        font-size: 2.5em;
+    }
+    #computerChoice{
+        font-size: 2.5em;
+    }
+}
